@@ -1,0 +1,39 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+    font-family: 'Outfit', sans-serif;}
+
+.card{
+    height: 470px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    margin: 3rem 10rem;
+    padding: 15px;
+}
+
+.QR{
+    background: url('../Images/image-qr-code.png');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 13px;
+    margin-left: 0 15px;
+}
+
+
+
+.card h2{
+    margin-top:25px;
+    color: hsl(218, 44%, 22%);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card p{
+    color: hsl(220, 15%, 55%);
+    font-size: 16px;
+    font-weight: 400;
+}
